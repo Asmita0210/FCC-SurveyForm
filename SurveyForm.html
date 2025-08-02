@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Survey Form</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Styles-SurveyForm.css">
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+ </head>
+ <body>
+ <h1 id="title"><legend> The Imaginary Academy </legend> Survey Form</h1>
+ <fieldset class="overlay">
+ <p id="description"> Thank you for choosing our institute, The Imaginary Acdemy for your  education. We are grateful for having served you for however long we have. Please leave us with a small gift of feedback, as you move onward in your journey. Thank You!</p>
+  <form id="survey-form" action='https://register-demo.freecodecamp.org' method="post">
+   <fieldset> <legend>Personal Details</legend>
+    <label for="name-label">My Name is: <input id="name-label" type="text" required name="name" placeholder="FirstName MiddleName LastName" class="Personal-Details"/></label>
+    <label for="email-label">My Email: <input id="email-label" type="email" required name="email" placeholder="ABCxyz_123@email.com" class="Personal-Details"/></label>
+    <label for="number-label">My Age is: <input id="number-label" type="number" required name="age" min="9" max="19" placeholder="13" class="Personal-Details"/></label>
+   </fieldset>
+   <fieldset>
+    <label for="dropdown"> What grade are you in?
+     <select id="dropdown">
+      <option class="select-one" value="">[select one]</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+     </select>
+    </label>
+    </fieldset>
+   <fieldset>
+    <legend>Please state your gender:</legend> 
+    <label for="male"><input checked id="male" name="gender" type="radio" value="Masculine"/> Boy</label>
+    <label for="female"><input checked id="female" name="gender" type="radio" value="Feminine"/> Girl</label>
+    <label for="other"><input checked id="other" name="gender" type="radio" value="Other"/> Other</label>
+   </fieldset>
+   <fieldset>
+     <legend>What were your subjects of study?</legend>
+     <label checked for="English"><input id="English" type="checkbox" name="Subject" value="English"/> ENGLISH ELECTIVE/CORE</label>
+     <label for="Hindi"><input id="Hindi" type="checkbox" name="Subject" value="Hindi"/> HINDI ELECTIVE/CORE</label>
+     <label for="History"><input id="History" type="checkbox" name="Subject" value="History"/> HISTORY </label>
+     <label for="Political Science"><input id="Political" type="checkbox" name="Subject" value="Political Science"/> POLITICAL SCIENCE</label>
+     <label for="Geography"><input id="Geography" type="checkbox" name="Subject" value="Geography"/> GEOGRAPHY </label>
+     <label for="Economics"><input id="Economics" type="checkbox" name="Subject" value="Economics"/> ECONOMICS</label>
+     <label for="Psychology"><input id="Psychology" type="checkbox" name="Subject" value="Psychology"/> PSYCHOLOGY</label>
+     <label for="Mathematics"><input id="Mathematics" type="checkbox" name="Subject" value="Mathematics"/> MATHEMATICS</label>
+     <label for="Physics"><input id="Physics" type="checkbox" name="Subject" value="Physics"/> PHYSICS</label>
+     <label for="Chemistry"><input id="Chemistry" type="checkbox" name="Subject" value="Chemistry"/> CHEMISTRY</label>
+     <label for="Biotechnology"><input id="Biotechnology" type="checkbox" name="Subject" value="BIOTECHNOLOGY"/> BIOTECHNOLOGY</label>
+     <label for="Biology"><input id="Biology" type="checkbox" name="Subject" value="Biology"/> BIOLOGY</label>
+     <label for="Physical Education"><input id="Physical Education" type="checkbox" name="Subject" value="Physical Education"/> PHYSICAL EDUCATION</label>
+     <label for="Business Studies"><input id="Business Studies" type="checkbox" name="Subject" value="Business Studies"/> BUSINESS STUDIES</label>
+     <label for="Accountancy"><input id="Accountancy" type="checkbox" name="Subject" value="Accountancy"/> ACCOUNTANCY</label>
+     <label for="Home Science"><input id="Home Science" type="checkbox" name="Subject" value="Home science"/> HOME SCIENCE</label>
+     <label for="Informatics Practices"><input id="Informatics Practices" type="checkbox" name="Subject" value="Informatics Practices"/> INFORMATICS PRACTICES</label>
+     <label for="Computer Sciences"><input id="Computer Sciences" type="checkbox" name="Subject" value="Computer Science"/> COMPUTER SCIENCE</label>
+     <label for="Entrepreneurship"><input id="Enterpreneurship" type="checkbox" name="Subject" value="Enterpreneurship"/> ENTREPRENEURSHIP</label>
+     <label for="Legal Studies"><input id="Legal Studies" type="checkbox" name="Subject" value="Legal Studies"/> LEGAL STUDIES</label>
+   </fieldset>
+   <fieldset>
+    <label for="add-ons"> 
+     <legend>Do you think your experience your experince at this School could have been better? Let us know!</legend>
+     <textarea id="add-ons" class="thoughts" placeholder="thoughts?" rows="3" column="30" name="experience"></textarea></label>
+    <input type="submit" class="submit-button" value="Submit"/>
+   </fieldset>
+  </form>
+  </fieldset>
+ </body>
+</html>
