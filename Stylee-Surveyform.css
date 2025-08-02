@@ -1,0 +1,77 @@
+body {
+background-color: #add0b3;
+width: 100%;
+height: 100vh;
+margin: 0;
+}
+
+label {
+display: block;
+margin: 5px 0 5px 0;
+}
+
+h1 {
+text-align: center;
+font-size: 42px;
+font-family: 'UnifrakturCook', serif;
+}
+
+p {
+text-align: center;
+font-size: 30px;
+margin: 1rem;
+ font-family: 'Allura', cursive;
+}
+
+form {
+max-width: 600px
+  min-width: 300px;
+text-align: left;
+font-size: 24px;
+background-color: #507d2a;
+margin: 1rem;
+font-family: Tahoma;
+}
+
+.overlay {
+background-color: #89b17f;
+border: none;
+margin: 1rem
+}
+
+input[type="email"] {
+margin-left: 27px;
+}
+
+input[type="number"] {
+margin-left: 20px;
+}
+
+.Personal-Details, .submit-button, .thoughts, select {
+background-color: #7a9e62;
+}
+
+input::placeholder, textarea::placeholder{
+color: #8c5c63;
+}
+
+fieldset {
+ border: none;
+  padding: 1rem 0;
+  border-bottom: 7px solid #006400;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  min-height: 2em; 
+  font-size: 1.1rem;
+  min-width:300px;
+  margin: 1em auto 1em auto; 
+}
+
+.thoughts {
+margin-top: 7px;
+}
+
